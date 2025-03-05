@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy birthday, I love you.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff6b6b, #ffcc5c);
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .section {
+            margin-top: 30px;
+            padding: 20px;
+            background: #ffffff;
+            color: #333;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            display: none;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        button {
+            background: #ff4081;
+            color: white;
+            padding: 15px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #e91e63;
+        }
+        img.flower, img.personal, img.meme {
+            width: 350px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .flower { animation: bloom 3s ease-in-out infinite alternate; }
+        @keyframes bloom {
+            0% { transform: scale(0.8); opacity: 0.5; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 3em; text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);">Happy Birthday, I love you.</h1>
+    
+    <!-- Music Selection -->
+    <div class="section" id="musicSection" style="display: block; opacity: 1;">
+        <p style="font-size: 1.5em; color: #ff4081;">Choose a song to start:</p>
+        <button onclick="playMusic('blue.mp3')">Blue - Yung Kai</button>
+        <button onclick="playMusic('canthelp.mp3')">Can't Help Falling in Love - Elvis Presley</button>
+        <button onclick="playMusic('theycall.mp3')">They Call This Love - Elliot James Reay</button>
+        <audio id="birthdaySong"></audio>
+    </div>
+    
+    <!-- Paragraph Prompt -->
+    <div class="section" id="paragraphPrompt">
+        <p style="font-size: 1.5em;">Would you like to see something I wrote for you?</p>
+        <button onclick="showParagraph()">Yes</button>
+        <button onclick="askAgain()">No</button>
+    </div>
+    
+    <!-- Long Paragraph -->
+    <div class="section" id="paragraphSection">
+        <p style="font-size: 1.2em; line-height: 1.6;">ssup money 😈☝🏻, you have now turned 18 years old. Being a fellow adult, it is my honour to welcome you to adulthood, bwhaha. Now for a month and twelve days, we’ll be the same age, which is kind of crazy. We have given each other more than seven months of our lives(six months in relationship). We know every single bit about each other and now, after seven months of spending time with each other, it is the first birthday that we are ever celebrating. Many more to come, obviously. I will try to make this one of your most memorable ones.
+
+We started talking in late july, I had a girlfriend back then who had no importance in my life, I was doing my favourite passtime. That being bullying people online. "Saturn GC". As soon as I got in I knew, it was perfect for me, for bullying purposes, It was strange that someone like you spent time in a gc like that. I was bullying the members, as usual. Then you replied to one of my trolling texts, "who tf are you dawg" I saw that text and I knew, you were not like one of these normies. I replied with what I usually reply with, "my name is connor, i am an android sent by cyberlife". We had a small conversation in the gc and then you asked me to slide into your dms and like any man would, I did slide. We started talking, had some late night conversations. Asked each other about ourselves, got to know each other more and I found myself a little bit attracted, towards you. And you found yourself weirdly attracted towards me too. 
+
+At that point of time I didn't give it too much of a thought. I just thought "Yeah I like this girl" and that was the end of it. It didn't matter to me as much as it does now. I was more involved in my favourite passtime, that being bullying people online. We had conversations back then but they were not as meaningful, not as deep. Then someday, I really don't know what brought that switch in me but I felt like I wanted more than that, more than just these conversations where my investment was half-assed. I didn't know I had that in me, wanting more than just a half-assed investment, in a girl but as soon as that switch hit me, I felt like I needed nothing else in my life. I wanted all my focus to be on you, the idea of giving that gc anymore time of mine felt worthless and stupid. I just wanted you and me because it was all that mattered to me. You and me talking, you and me being together, you and me fighting, you and me making stupid jokes, you and me being madly in love. 
+
+As time passed by, the idea of having a future with you became stronger and stronger. We started making plans. We thought it through. Our will to be together, stay together made us think it through. Now, we do have a plan, the plan being you coming here. I cannot really say how practical that plan is but I am taking your word for it because you do seem confident. Oh and how could I forget, that reel. That one reel. What a night that was. One of our best ones, I was laughing. You were laughing too. I was laughing on the guy and the fact that I was laughing made you laugh which is very adorable. I would sell my father's property to relive that night just so you know. There are a lot of positives in our relationship. The love, the clinginess from both the sides, the way we express each other, make each other feel better, make each other feel wanted, secured, assured and the list goes on. Even this letter, this website, all this I have worked hard upon, It is to make you feel special. To make you feel loved, if I succeed, I will be the happiest.  
+
+There is no doubt that with positives, negatives do come too. We have had fights that have been emotionally draining, situations that got us messed up but what matters is that we learnt, grew. It only made us stronger. We learned more about each other with every single argument and obviously, we are still learning and I think we'll be learning till the end of our lives and maybe some more time too bwhahaha because we both are very complex human beings. You are more complex just so you know. The fact that it's been more than six months and we are yet to lose that spark which comes in the start of a relationship is genuinely crazy and proves how special and strong our bond is, our love is.
+
+To wrap it up, I will just like to say that I have worked pretty hard for this and I hope the efforts are evident. My love, my plans and intentions with you. I have loved you and will continue to do so, in life and afterlife too. You mean everything to me. We will make it work, won't be easy. It sure will not get as bad as it got some weeks ago, we just need to be careful. Happy birthday again, Divyanshi. Baar baar din ye aaye baar baar dil ye gaaye tum jiyo hazaro saal ye meri hai aarzu. I love you the most. I love you forever, *mwah*.
+
+Yours forever
+Prathamesh </p>
+        <button onclick="showFlower()">Shall we move on?</button>
+    </div>
+    
+    <!-- Animated Flower -->
+    <div class="section" id="flowerSection">
+        <img src="lily-of-the-valley.jpg" class="flower" alt="Lily of the Valley">
+        <button onclick="showPictures()">Next</button>
+    </div>
+    
+    <!-- Picture Section -->
+    <div class="section" id="pictureSection">
+        <p style="font-size: 1.5em;">Well, I thought this was something I could do.</p>
+        <img src="collage.jpeg" class="personal" alt="How can someone be so sexy and so pretty at the same time?">
+        <img src="bouqet.jpeg" class="meme" alt="Ye le, bouqet">
+    </div>
+    
+    <script>
+        function fadeIn(element) {
+            element.style.display = "block";
+            setTimeout(() => {
+                element.style.opacity = "1";
+            }, 10);
+        }
+        
+        function fadeOut(element) {
+            element.style.opacity = "0";
+            setTimeout(() => {
+                element.style.display = "none";
+            }, 1000);
+        }
+        
+        function playMusic(song) {
+            let audio = document.getElementById("birthdaySong");
+            audio.src = song;
+            audio.load();
+            audio.play().catch(error => console.log("Playback error: ", error));
+            fadeOut(document.getElementById("musicSection"));
+            setTimeout(() => fadeIn(document.getElementById("paragraphPrompt")), 1000);
+        }
+        
+        function showParagraph() {
+            fadeOut(document.getElementById("paragraphPrompt"));
+            setTimeout(() => fadeIn(document.getElementById("paragraphSection")), 1000);
+        }
+        
+        function askAgain() {
+            setTimeout(() => {
+                alert("Oh cmon, Just say yes.");
+            }, 1000);
+        }
+        
+        function showFlower() {
+            fadeOut(document.getElementById("paragraphSection"));
+            setTimeout(() => {
+                fadeIn(document.getElementById("flowerSection"));
+                document.querySelector(".flower").style.display = "block";
+            }, 1000);
+        }
+        
+        function showPictures() {
+            fadeOut(document.getElementById("flowerSection"));
+            setTimeout(() => {
+                fadeIn(document.getElementById("pictureSection"));
+                document.querySelector(".personal").style.display = "block";
+                setTimeout(() => {
+                    document.querySelector(".meme").style.display = "block";
+                }, 1000);
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
